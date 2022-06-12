@@ -1,8 +1,6 @@
 <?php
 
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +47,7 @@
     <div class="header">
         <h1>Control Panel</h1>
     </div><br><br><br>
-    <center><br><br>
+         
 
         <table border="2" style="
     padding: 30px;">
@@ -101,19 +99,17 @@
 <form action="AddProduct.php" method="post">
     <button style="font-size: xx-large;
     color: firebrick;
-    cursor: pointer;
-}">Add Product</button>
+    cursor: pointer;">Add Product</button>
 
 </form>  <br>
 <form action="ViewProduct.php" method="post">
     <button style="font-size: xx-large;
     color: firebrick;
-    cursor: pointer;
-}">ViewProduct</button><br><br>
+    cursor: pointer;">ViewProduct</button><br><br>
 </form>
 <a href="index.php" style="font-size: xx-large;
     text-decoration: none;" >Logout</a>
-</center>
+
 
 
 </body>
